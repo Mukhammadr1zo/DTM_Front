@@ -7,7 +7,7 @@ const NavbarLayout = () => {
     return (
         <div className='container'>
             <div className={style.navbar}>
-                <Link to='/students'>Yuqori ballar</Link>
+                <Link to='/students'>Umumiy ballar</Link>
                 <Link to='/login' onClick={() => localStorage.removeItem('token')}>Log out</Link>
             </div>
             <Outlet />
