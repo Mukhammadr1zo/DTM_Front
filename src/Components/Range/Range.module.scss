@@ -1,0 +1,55 @@
+.range {
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    &__name{
+        width: 180px;
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    &__procent{
+        margin: 0 25px;
+    }
+}
+
+.box_line {
+    flex-grow: 1;
+    height: 2px;
+    margin: 15px 0;
+    background: #C4C4C4;
+    border-radius: 5px;
+    position: relative;
+
+    &_icon{
+        display: inline-block;
+        padding: 3px 10px;
+        color: #FFFFFF;
+        border-radius: 30px;
+        position: absolute;
+        top: 0;
+
+        transform: translate(-50%, calc(-100% + -15px));
+
+        &::after{
+            content: '';
+            width: 10px;
+            height: 10px;
+            background: inherit;
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+
+            transform: translate(-50%, 50%) rotate(45deg);
+        }
+    }
+}
+
+.box_line__progress {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2px;
+    border-radius: 5px;
+}

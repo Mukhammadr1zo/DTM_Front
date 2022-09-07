@@ -1,0 +1,23 @@
+.results{
+    width: 100%;
+
+    &__title{
+        font-size: 35px;
+        line-height: 52px;
+        margin: 50px 0;
+    }
+
+    &__ranges{
+        margin-bottom: 97px;
+    }
+
+    &__subtitle{
+        font-size: 36px;
+        line-height: 54px;
+    }
+
+    &__desc{
+        font-size: 28px;
+        line-height: 42px;
+    }
+}

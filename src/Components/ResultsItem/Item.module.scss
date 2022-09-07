@@ -1,0 +1,38 @@
+.item{
+    & > span{
+        width: 100%;
+        display: flex;
+        padding: 23px 0;
+        border-bottom: 1px solid #DCDCDC;
+
+        & > span{
+            display: inline-block;
+            width: 100%;
+            flex-grow: 1;
+        }
+    }
+
+    &__accordion{
+        display: none;
+        flex-direction: column;
+        & > span{
+            width: 100%;
+            display: flex;
+            padding: 0 20px;
+
+            & > span{
+                display: inline-block;
+                width: 100%;
+                flex-grow: 1;
+            }
+        }
+    }
+}
+
+.open{
+    transform: rotate(180deg);
+}
+
+.open_item{
+    display: flex;
+}

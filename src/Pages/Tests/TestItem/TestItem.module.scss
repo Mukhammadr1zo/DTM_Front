@@ -1,0 +1,19 @@
+.testItem{
+    width: 100%;
+    border-bottom: 1px solid #AAAAAA;
+    padding-bottom: 36px;
+    margin-bottom: 55px;
+
+    &__question{
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 40px;
+        margin-bottom: 47px;
+    }
+
+    &__variants{
+        display: flex;
+        flex-direction: column;
+        row-gap: 38px;
+    }
+}

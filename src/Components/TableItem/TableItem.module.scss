@@ -1,0 +1,23 @@
+.table{
+    display: flex;
+    
+    & > span{
+        display: inline-block;
+        width: 97px;
+        padding: 0 22px;
+        border-left: 1px solid #E4E4E4;
+        border-right: 1px solid #E4E4E4;
+        margin-bottom: 20px;
+
+        &:first-child{
+            padding-left: 0;
+            border-left: none;
+            width: 165px;
+        }
+
+        &:last-child{
+            padding-right: 0;
+            border-right: none;
+        }
+    }
+}

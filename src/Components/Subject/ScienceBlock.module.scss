@@ -1,0 +1,83 @@
+.scienceBlock{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    &__title{
+        width: 100%;
+        font-weight: 500;
+        font-size: 35px;
+        line-height: 52px;
+        color: #000000;
+        text-align: center;
+        margin-bottom: 65px;
+    }
+
+    &__timeline{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 -44px;
+        margin-bottom: 100px;
+
+        & > div{
+            width: 65px;
+            height: 65px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 35px;
+            line-height: 52px;
+            border-radius: 50%;
+            border: 1px solid #AEAEAE;
+            margin: 0 44px;
+        }
+
+        & > span{
+            flex-grow: 1;
+            border: 1px solid #AEAEAE;
+        }
+    }
+
+    &__select{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        font-size: 24px;
+        line-height: 36px;
+        margin-bottom: 60px;
+    }
+
+    &__btn{
+        background: inherit;
+        border: 1px solid #AAAAAA;
+        border-radius: 20px;
+        padding: 14px 70px;
+        font-size: 18px;
+        line-height: 27px;
+        align-self: flex-end;
+        margin-bottom: 50px;
+        transition: all 0.3s;
+
+        &:hover{
+            background: #18A0FB;
+            color: white;
+        }
+    }
+}
+
+.active{
+    border: 1px solid #18A0FB;
+    box-shadow: 0px 0px 6px #18A0FB;
+}
+
+.select{
+    width: 540px;
+    padding: 16px;
+    font-size: 22px;
+    line-height: 33px;
+    border: 1px solid #AEAEAE;
+    outline: none;
+    border-radius: 20px;
+    margin-top: 16px;
+}

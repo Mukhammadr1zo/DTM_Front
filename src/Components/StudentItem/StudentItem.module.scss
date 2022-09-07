@@ -1,0 +1,29 @@
+.row{
+    width: 100%;
+    border-bottom: 1px solid #AEAEAE;
+
+    & > td{
+        margin: 10px 0;
+        padding: 28px 5px;
+        padding-left: 22px;
+        position: relative;
+        border-bottom: 1px solid #AEAEAE;
+        
+        &::after{
+            content: '';
+            width: 1px;
+            height: 40px;
+            background: #AEAEAE;
+            position: absolute;
+            top: 50%;
+            left: 0;
+            transform: translate(0, -50%);
+        }
+
+        &:first-child{
+            &::after{
+                width: 0;
+            }
+        }
+    }
+}

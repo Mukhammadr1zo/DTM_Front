@@ -1,0 +1,24 @@
+.layout{
+    width: 100%;
+    min-height: 100vh;
+
+    &__backBtn{
+        display: flex;
+        justify-content: flex-start;
+        margin: 70px 0;
+
+        & > button{
+            display: flex;
+            align-items: center;
+            font-size: 25px;
+            font-family: 'Poppins';
+            font-weight: 500;
+            border: none;
+            background: inherit;
+
+            & > img {
+                margin-right: 25px;
+            }
+        }
+    }
+}

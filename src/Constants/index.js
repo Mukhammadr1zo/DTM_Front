@@ -1,0 +1,1 @@
+export const HOST = 'https://dtm-tests.herokuapp.com'

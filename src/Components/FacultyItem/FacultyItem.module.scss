@@ -1,0 +1,12 @@
+.item{
+    display: flex;
+    align-items: center;
+    padding: 8px 14px;
+    background: #bbbbbb53;
+    border-radius: 20px;
+    margin-left: 10px;
+    
+    & > img {
+        margin-left: 10px;
+    }
+}

@@ -1,0 +1,50 @@
+.title{
+    font-size: 35px;
+    line-height: 52px;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.btn{
+    width: 100%;
+    background: inherit;
+    border: 1px solid #18A0FB;
+    border-radius: 20px;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+    padding: 17px;
+    margin-bottom: 14px;
+    transition: all 0.3s;
+
+    &:hover{
+        color: white;
+        background-color: rgba(24, 160, 251, 1);
+    }
+}
+
+.link{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    transition: all 0.3s;
+
+    &:hover{
+        color: rgba(24, 160, 251, 1);
+    }
+}
+
+.select{
+    padding: 14px 0;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #BBBBBB;
+    margin-bottom: 26px;
+    text-transform: capitalize;
+
+    & > option{
+        text-transform: capitalize;
+    }
+}
